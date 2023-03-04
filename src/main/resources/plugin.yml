@@ -1,0 +1,54 @@
+name: YetAnotherEssentials
+main: me.thatsatim.yetanotheressentials.Main
+version: 1.0
+author: ThatsATim
+description: YetAnotherEssentials
+api-version: 1.19
+
+commands:
+  heal:
+    description: /heal is used to heal players which are hurt.
+
+  fly:
+    description: /fly is a toggle for enabeling/disabeling a player to fly.
+
+  gamemode:
+    aliases:
+      - gm
+    description: Allows user to change gamemodes
+
+  gmc:
+    description: short gamemode creative command
+
+  gms:
+    description: short gamemode survival command
+
+  gma:
+    description: short gamemode adventure command
+
+  gmsp:
+    description: short gamemode spectater command
+
+  tphere:
+    description: TP a player to your position
+
+  tpall:
+    description: TPs all players to you
+
+  top:
+    description: TPs you to the block all the way at the top
+
+  repair:
+    description: Repairs items
+
+  yetanotheressentials:
+    description: Admin command, mainly reload the config without the rest of the server
+
+  tpa:
+    description: Allows players to teleport to each other using requests.
+
+  tpaccept:
+    description: Accept an incomming reqeusts
+
+  tpdeny:
+    description: Deny an incomming reqeusts

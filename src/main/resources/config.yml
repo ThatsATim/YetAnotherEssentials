@@ -1,0 +1,102 @@
+# // Global messages
+no_perms: '&6MapleCore: &cYou do not have permission to do that!'
+player_not_found: '&6YetAnoterEssentials: &cPlayer not found'
+
+
+# // Healing messages
+# This will be sent when the console does /heal Playername
+console_heal_someone: '&aYou have been healed by the console!'
+# This will be sent to the command user upon /heal Playername
+heal_someone: '&6YetAnoterEssentials: &2You have healed <target>'
+# This is sent upon /heal
+heal_self: '&6YetAnoterEssentials: &2You have healed yourself!'
+# This is sent to the target of /heal Playername
+heal_be_healed: '&6YetAnoterEssentials: &2<player> healed you'
+# This message is sent when the command user somehow fucked it up
+heal_too_many_args: '&6YetAnoterEssentials: &cToo many arguments provided please use -> /heal or /heal playername'
+# This broadcasts to everyone upon /heal *
+heal_all: '&6YetAnoterEssentials: &2A heal all has been given'
+
+
+# // Fly messages
+# These will be sent to the command user upon /fly
+fly_enable_self: '&6YetAnoterEssentials: &2You enabled your fly.'
+fly_disable_self: '&6YetAnoterEssentials: &2You disabled your fly.'
+# These will be sent to the command user upon /fly Playername
+fly_enable_someone: '&6YetAnoterEssentials: &2You have enabled the fly of <target>.'
+fly_disable_someone: '&6YetAnoterEssentials: &2You have disabled the fly of <target>.'
+# These will be sent to the target user upon /fly Playername
+fly_enable_someone_target: '&6YetAnoterEssentials: &2<player> has enabled your to fly'
+fly_disable_someone_target: '&6YetAnoterEssentials: &2<player> has disabled your fly'
+# These will be sent upon the console doing /fly Playername
+fly_console_enable: '&6YetAnoterEssentials: &2The console enabled your fly.'
+fly_console_disable: '&6YetAnoterEssentials: &2The console disabled your fly.'
+# This message is sent when the command user somehow does it wrong
+fly_wrong_args: '&6YetAnoterEssentials: &cPlease try /fly <Playername>'
+
+
+# // Gamemode messages
+gamemode_creative: '&6YetAnoterEssentials: &2Gamemode set to creative'
+gamemode_survival: '&6YetAnoterEssentials: &2Gamemode set to survival'
+gamemode_adventure: '&6YetAnoterEssentials: &2Gamemode set to adventure'
+gamemode_spectator: '&6YetAnoterEssentials: &2Gamemode set to spectator'
+# The messages below will be send to the command user on /gamemode <targetname>
+gamemode_creative_user: '&6YetAnoterEssentials: &2Gamemode set to creative for <target>'
+gamemode_survival_user: '&6YetAnoterEssentials: &2Gamemode set to survival for <target>'
+gamemode_adventure_user: '&6YetAnoterEssentials: &2Gamemode set to adventure for <target>'
+gamemode_spectator_user: '&6YetAnoterEssentials: &2Gamemode set to spectator for <target>'
+# The messages below will be send to the target of /gamemode <targetname>
+gamemode_creative_target: '&6YetAnoterEssentials: &2Your gamemode has been set to creative by <user>'
+gamemode_survival_target: '&6YetAnoterEssentials: &2Your gamemode has been set to survival by <user>'
+gamemode_adventure_target: '&6YetAnoterEssentials: &2Your gamemode has been set to adventure by <user>'
+gamemode_spectator_target: '&6YetAnoterEssentials: &2Your gamemode has been set to spectator by <user>'
+## These messages are only for the short /gmx commands
+# This is sent to the user if there are too many arguments
+wrong_gmx_args: "&6YetAnoterEssentials: &cPlease try /gm(c/s/a/sp) <player>"
+
+
+# // Top messages
+top: "&6YetAnoterEssentials: &2You successfully teleported to the top!"
+top_someone: "&6YetAnoterEssentials: &2You have teleported <TARGET> to the top at their location!"
+top_someone_target: "&6YetAnoterEssentials: &2<PLAYER> has teleported you to the top at your location!"
+top_worng_args: "&6YetAnoterEssentials: &c/top <playername>"
+
+
+#  // Tp Messages
+## Tpall
+tpall: "&6YetAnoterEssentials: &2<PLAYER> has teleported everyone to <TARGET>"
+## Tphere
+tphere_wrong_args: "&6YetAnoterEssentials: &2/tphere Playername"
+tphere_sender: "&6YetAnoterEssentials: &2You teleported <TARGET> to you"
+tphere_target: "&6YetAnoterEssentials: &2<PLAYER> teleported you to them"
+
+
+# // Join and quit messages
+firstJoin_message: '&a<player> &7has joined the server for the first time!'
+join_message: '&e<player> &7has joined the server!'
+quit_message: '&e<player> &7has left the server.'
+
+## Teleport messages
+# This triggers when either too much or too little arguments are given
+wrong_usage: "&6YetAnoterEssentials: &cPlease try using /tpa <Playername>"
+# this message is sent when you are successfully teleporting
+teleporting: "&6YetAnoterEssentials: &2Teleporting now"
+# This message is sent to the command user on trying to tp to themselves
+to_self_teleport: "&6YetAnoterEssentials: &cYou can't teleport to yourself"
+# This message is sent to the target to ask for permission
+ask_target_line1: "<PLAYER> wants to teleport to you."
+ask_target_line2: 'Type "/tpaccept" to accept this request.'
+ask_target_line3: 'Type "/tpdeny" to deny this request.'
+ask_target_line4: "You have 5 minutes to respond."
+# This message is sent to the command sender when a successful tp request has been made
+successful_request: "&6YetAnoterEssentials: &2Send TPA request to <TARGET>"
+# This message is sent to the command user when they already have a TP reauest pending
+already_request: "&6YetAnoterEssentials: &cYou already have a pending request!"
+# This message is sent to the command user when they don't have any pending requests
+no_request: "&6YetAnoterEssentials: &2You don't have any pending requests!"
+# This message is sent to the command user upon using /tpaccept
+tpaccept: "&6YetAnoterEssentials: &2TPA request accepted!"
+# This message is sent to the player who wants to teleport when denied so
+tpdeny_player: "&6YetAnoterEssentials: &cYour TPA request was denied by <TARGET>!"
+# This message is sent to the player who denied the teleport request
+tpdeny_target: "&6YetAnoterEssentials: &2Denied TPA request."
