@@ -1,6 +1,8 @@
 # YetAnotherEssentials
 The essentials of Essentials.
 <br>
+I am aware not all permissions makes sense, i am working on a 2.0 already.
+<br>
 Current commands:
 <br>
 /fly (player)
@@ -28,4 +30,25 @@ Current commands:
 /tpall (player)
 <br>
 /tpa
+<br>
+
+Permissions
+<br>
+fly: ess.fly
+<br>
+gamemode: ess.gamemode
+<br>
+The short game mode commands: mc.gm
+<br>
+heal: mc.heal
+<br>
+repair: ess.repair
+<br>
+top: ess.top
+<br>
+tpall: ess.tpall
+<br>
+tphere: ess.tphere
+<br>
+tpa: ess.tpa
 <br>
